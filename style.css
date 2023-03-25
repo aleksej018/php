@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.nav-meni{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: gray;
+}
+
+.nav-meni__items{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 28%;
+}
+
+.nav-meni__item a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.nav-meni__item a:hover{
+    color: darkgray;
+    text-decoration: underline;
+}
+
+form{
+    margin: 1rem;
+    padding: 5px;
+}
+
+span, input{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
